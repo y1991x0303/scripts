@@ -38,9 +38,9 @@ const $ = new Env('京东618')
   const VAL_body = $request.body
   const VAL_headers = JSON.stringify($request.headers)
   if (VAL_url && VAL_body && VAL_headers) {
-    $.setdata($request.url, 'chavy_url_jd816')
-    $.setdata($request.body, 'chavy_body_jd816')
-    $.setdata(JSON.stringify($request.headers), 'chavy_headers_jd816')
+    $.setdata($request.url, 'chavy_url_jd816_2')
+    $.setdata($request.body, 'chavy_body_jd816_2')
+    $.setdata(JSON.stringify($request.headers), 'chavy_headers_jd816_2')
     $.subt = '获取会话: 成功!'
   }
 })()
